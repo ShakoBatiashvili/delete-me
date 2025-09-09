@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // This ensures relative paths work on GitHub Pages
+  base: '/delete-me/', // GitHub Pages base path for repository
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
